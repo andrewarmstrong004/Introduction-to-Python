@@ -158,14 +158,14 @@
 \usepackage{times}
 \usepackage[T1]{fontenc}
 
-\title{MS-BANA and MS-IS Orientation}
-\subtitle{Python Overview}
+\title{Introduction to Python}
+%\subtitle{Python Overview}
 
 \author{Andrew Armstrong}
 
-\institute{University of Cincinnati\\ Carl H. Lindner College of Business}
+\institute{University of Cincinnati\\ Carl H. Lindner College of Business\\ Center of Business Analytics}
 
-\date{2017 August 12}
+\date{2017 September 14-15}
 
 %\subject{Course Introduction and Overview}
 
@@ -227,7 +227,7 @@
 			\frametitle{Course Resources}
 			\begin{itemize}
 				\vfill\item  You can find all the material for this course at the following website.
-				\vfill\item  \url{https://github.com/andrewarmstrong004/MS-BANA-Orientation}
+				\vfill\item  \url{https://github.com/andrewarmstrong004/Introduction-to-Python}
 			\end{itemize}
 		\end{frame}
 		
@@ -301,14 +301,23 @@
 				\item  Overview of boolean and numeric types
 				\item  Introduction to function
 				\item  Control flow
-				\item  Sequences, Sets, and Mappings
+				\item  Sequences
+				\item  Sets, Mappings, and comments
+				\item  Statements in Python
+			\end{itemize}
+		\end{frame}
+		
+		
+		\begin{frame}
+			\frametitle{Tentative Course Outline - Day 02}
+			\begin{itemize}
+				\item  Day 01 Review
 				\item  Data I/O
-				\item  Loops
-				\item  Advanced functions
-				\item  Plotting
-				\item  Regression
-				\item  Data science modules
-				\item  Useful functions
+				\item  Intermediate functions
+				\item  Basic Modules and Packages
+				\item  Plotting and Regression
+				\item  Introduction to Machine Learning
+				\item  Case Studies
 			\end{itemize}
 		\end{frame}
 
@@ -620,7 +629,7 @@
 						\item  We will use this folder over the course of the day
 						\item  This folder should be in the same drive as your Anaconda installation
 					\end{itemize}
-				\vfill\item  Navigate to \url{https://github.com/andrewarmstrong004/MS-BANA-Orientation}
+				\vfill\item  Navigate to \url{https://github.com/andrewarmstrong004/Introduction-to-Python}
 				\vfill\item  This site has all the material you will need for class today
 				\vfill\item  Download at least the first couple lecture and practice files
 					\begin{itemize}
@@ -657,7 +666,7 @@
 			\frametitle{Using a Text Editor}
 			\begin{itemize}
 				\vfill \item  You can also just write Python code in a text editor and save it as a .py file
-				\vfill \item  You can then just run this Python file by typing in \texttt{python python\_file.py} into your terminal
+				\vfill \item  You can then just run this Python file by typing in \texttt{python} and then the name of your program into your terminal
 				\vfill \item  This is not recommended, it is very hard to problem solve this way
 					\begin{itemize}
 						\item  Especially getting rid of nuisance whitespace
@@ -675,14 +684,14 @@
 						\item  \texttt{print `Hello, World!'}
 						\item  \texttt{print 5+7}
 					\end{itemize}
-				\vfill \item  Save this new file as first\_python\_program.py on your desktop or in an easily to navigate to folder
+				\vfill \item  Save this new file as Second\_Program.py on your desktop or in an easily to navigate to folder
 				\vfill \item  Open up your Anaconda terminal and navigate to your new file
 
 				\vfill \item  Once there, execute the following command:
 					\begin{itemize}
-						\item  python first\_python\_program.py
+						\item  python Second\_Program.py
 					\end{itemize}
-				\vfill \item  You now have written your first Python program
+				\vfill \item  You now have written your second Python program
 			\end{itemize}		
 				
 		\end{frame}
@@ -724,12 +733,12 @@
 					\begin{itemize}
 						\item  Take note of the difference in color and formatting when using an IDE when compared to notepad (or similar)
 					\end{itemize}
-				\vfill \item  Save the code as second\_python\_program.py in an easily accessible area
+				\vfill \item  Save the code as Second\_Program.py in an easily accessible area
 				\vfill \item  Run the code using your terminal or with the built in functions of your IDE
 					\begin{itemize}
 						\item  If you are using your terminal, type the following into it:
 							\begin{itemize}
-								\item  python second\_python\_program.py
+								\item  python Second\_Program.py
 							\end{itemize}
 					\end{itemize}
 			\end{itemize}
@@ -753,7 +762,7 @@
 					\begin{itemize}
 						\item  The folder that you have been saving the .ipynb files to
 					\end{itemize}
-				\vfill\item  Open Lecture 00 - Third Python Program
+				\vfill\item  Open Lecture 00c - Third Python Program
 				\vfill\item  Use the command shift+enter to execute the code selected and move on to the next section
 				\vfill\item  Use the command ctrl+enter to execute the code selected, but stay on the same code block
 				\vfill\item  Press h when not in edit mode to see all the command shortcuts
@@ -932,10 +941,10 @@
 			\end{itemize}
 		\end{frame}
 		
-	\subsection{Sequences, Sets, and Mappings}
+	\subsection{Sequences}
 	
 		\begin{frame}
-			\frametitle{Lecture 04 - Sequences, Sets, and Mappings}
+			\frametitle{Lecture 04 - Sequences}
 			\begin{itemize}
 				\vfill\item  Sequences
 					\begin{itemize}
@@ -953,6 +962,14 @@
 								\item  Probably your most commonly used data structure
 							\end{itemize}
 					\end{itemize}
+			\end{itemize}
+		\end{frame}
+		
+	\subsection{Sets, Mappings, and Comments}
+	
+		\begin{frame}
+			\frametitle{Lecture 05 - Sets, Mappings, and Comments}
+			\begin{itemize}
 				\vfill\item  Sets
 					\begin{itemize}
 						\item  Sets (Mutable)
@@ -974,24 +991,27 @@
 			\end{itemize}
 		\end{frame}
 		
-	\subsection{Data I//O}
+	\subsection{Statements}
 	
 		\begin{frame}
-			\frametitle{Lecture 05 - Data IO}
+			\frametitle{Lecture 06 - Statements}
 			\begin{itemize}
-				\vfill\item  For other data analysis tools there are only a limited number of ways to open external data sources
-				\vfill\item  Since Python is strongly focused on the use of external modules, there are a whole slew of methods for importing data
-				\vfill\item  Depending on your particular application, you may want to use different import functions
-				\vfill\item  In this quick class we will only focus on a few of some of the more widely used methods
-			\end{itemize}
-		\end{frame}
-		
-	\subsection{Loops}
-	
-		\begin{frame}
-			\frametitle{Lecture 06 - Loops}
-			\begin{itemize}
-				\vfill\item  Python has two different types of loops that you can take advantage of
+				\vfill\item  Assignments
+					\begin{itemize}
+						\item  How we assign values to variables
+					\end{itemize}
+				\vfill\item  Expression Statements
+					\begin{itemize}
+						\item  How to call a function or method
+					\end{itemize}
+				\vfill\item  Print statements
+					\begin{itemize}
+						\item  Printing information to the user
+					\end{itemize}
+				\vfill\item  If Statements
+					\begin{itemize}
+						\item  Managing control flow
+					\end{itemize}
 				\vfill\item  For loops
 					\begin{itemize}
 						\item  Iterates through a collection or iterable object
@@ -1005,58 +1025,99 @@
 			\end{itemize}
 		\end{frame}
 		
-	\subsection{Advanced Functions}
+	\subsection{Data I//O}
 	
 		\begin{frame}
-			\frametitle{Lecture 07 - Advanced Functions}
+			\frametitle{Lecture 08 - Data IO}
+			\begin{itemize}
+				\vfill\item  For other data analysis tools there are only a limited number of ways to open external data sources
+				\vfill\item  Since Python is strongly focused on the use of external modules, there are a whole slew of methods for importing data
+				\vfill\item  Depending on your particular application, you may want to use different import functions
+				\vfill\item  In this quick class we will only focus on a few of some of the more widely used methods
+			\end{itemize}
+		\end{frame}
+		
+	\subsection{Intermediate Functions}
+	
+		\begin{frame}
+			\frametitle{Lecture 09 - Intermediate Functions}
 			\begin{itemize}
 				\vfill\item  We have already created some rudimentary functions
 				\vfill\item  Lets take some of the more advanced concepts we have learned and combine them with functions to make more complex and useful pieces of code
 			\end{itemize}
 		\end{frame}
 		
-	\subsection{Plotting}
+	\subsection{Basic Modules and Packages}
 	
 		\begin{frame}
-			\frametitle{Lecture 08 - Plotting}
+			\frametitle{Lecture 10 - Basic Modules and Packages}
 			\begin{itemize}
-				\vfill\item  One of the first things you want to do when you get a new data set is explore it
-				\vfill\item  One of the best ways to do that is to plot the data in a variety of ways to see what types of patterns exist in it
-				\vfill\item  The most common plotting tool in Python is matplotlib
-				\vfill\item  Lets look as some simple matplotlib examples to see what we can create
-				\vfill\item  Lets also look at another data exploration tool Seaborn to see what else is out there
-			\end{itemize}
-		\end{frame}
-		
-	\subsection{Regression}
-	
-		\begin{frame}
-			\frametitle{Lecture 09 - Regression}
-			\begin{itemize}
-				\vfill\item  Regression is one of the most commonly used prediction methods in data science
-				\vfill\item  There are a large number of programs dedicated to performing only regression analysis
-				\vfill\item  There are also a large number of Python packages dedicated to regression analysis
-				\vfill\item  One of the easiest to use, and which uses the same format as R, is Statsmodels
-				\vfill\item  Lets look at a few examples of how we can use statsmodels for regression
-			\end{itemize}
-		\end{frame}
-		
-	\subsection{Data Science}
-	
-		\begin{frame}
-			\frametitle{Lecture 10 - Data Science}
-			\begin{itemize}
-				\vfill\item  We have now covered:
+				\vfill\item  Creating a module
 					\begin{itemize}
-						\item  Basic Python data structures
-						\item  Functions
-						\item  Program control flow
-						\item  Data I/O
-						\item  Loops
-						\item  Plotting
-						\item  Regression
+						\item  How we create code for later use by other programs
 					\end{itemize}
-				\vfill\item  Lets now try to combine some of these tools, and some data science, into some useful analytics applications
+				\vfill\item  Importing a module
+					\begin{itemize}
+						\item  How we bring in old code to a new program
+					\end{itemize}
+				\vfill\item  Commonly used Modules in Python
+					\begin{itemize}
+						\item  Numpy
+						\item  Random
+						\item  OS
+					\end{itemize}
+			\end{itemize}
+		\end{frame}
+		
+	\subsection{Plotting and Regression}
+	
+		\begin{frame}
+			\frametitle{Lecture 11 - Plotting and Regression}
+			\begin{itemize}
+				\vfill\item  Plotting
+					\begin{itemize}
+						\vfill\item  One of the first things you want to do when you get a new data set is explore it
+						\vfill\item  One of the best ways to do that is to plot the data in a variety of ways to see what types of patterns exist in it
+						\vfill\item  The most common plotting tool in Python is matplotlib
+						\vfill\item  Lets look as some simple matplotlib examples to see what we can create
+						\vfill\item  Lets also look at another data exploration tool Seaborn to see what else is out there
+					\end{itemize}
+			\end{itemize}
+		\end{frame}
+		
+		\begin{frame}
+			\frametitle{Lecture 11 - Plotting and Regression Cont.}
+			\begin{itemize}
+				\vfill\item  Regression
+					\begin{itemize}
+						\vfill\item  Regression is one of the most commonly used prediction methods in data science
+						\vfill\item  There are a large number of programs dedicated to performing only regression analysis
+						\vfill\item  There are also a large number of Python packages dedicated to regression analysis
+						\vfill\item  One of the easiest to use, and which uses the same format as R, is Statsmodels
+						\vfill\item  Lets look at a few examples of how we can use statsmodels for regression
+					\end{itemize}
+			\end{itemize}
+		\end{frame}
+		
+	\subsection{Introduction to Machine Learning}
+	
+		\begin{frame}
+			\frametitle{Lecture 12 - Introduction to Machine Learning}
+			\begin{itemize}
+				\vfill\item  Classification
+					\begin{itemize}
+						\item  Supervised learning
+						\item  You know possible classes
+					\end{itemize}
+				\vfill\item  Clustering
+					\begin{itemize}
+						\item  Unsupervised learning
+						\item  You don't know the different classes
+					\end{itemize}
+				\vfill\item  Dimensionality Reduction
+					\begin{itemize}
+						\item  Getting variable counts to manageable levels
+					\end{itemize}
 			\end{itemize}
 		\end{frame}
 		

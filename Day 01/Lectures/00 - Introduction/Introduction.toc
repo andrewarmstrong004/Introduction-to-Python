@@ -8,29 +8,30 @@
 \beamer@subsectionintoc {2}{2}{Course Description and Objectives}{7}{0}{2}
 \beamer@subsectionintoc {2}{3}{Course References}{9}{0}{2}
 \beamer@subsectionintoc {2}{4}{Tentative Course Outline}{11}{0}{2}
-\beamer@sectionintoc {3}{Overview of Python}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{Installing Anaconda}{13}{0}{3}
-\beamer@subsectionintoc {3}{2}{Python History}{14}{0}{3}
-\beamer@subsectionintoc {3}{3}{Python Methodology}{17}{0}{3}
-\beamer@subsectionintoc {3}{4}{Python Applications}{20}{0}{3}
-\beamer@subsectionintoc {3}{5}{Python in the Real World}{22}{0}{3}
-\beamer@subsectionintoc {3}{6}{Documentation and Resources}{24}{0}{3}
-\beamer@subsectionintoc {3}{7}{Finalizing Anaconda Installation}{26}{0}{3}
-\beamer@sectionintoc {4}{Writing Python Code}{27}{0}{4}
-\beamer@subsectionintoc {4}{1}{Class Folder Setup}{28}{0}{4}
-\beamer@subsectionintoc {4}{2}{Using the Terminal}{29}{0}{4}
-\beamer@subsectionintoc {4}{3}{Text Editor}{30}{0}{4}
-\beamer@subsectionintoc {4}{4}{Integrated Development Environments (IDEs}{32}{0}{4}
-\beamer@subsectionintoc {4}{5}{White Space}{38}{0}{4}
-\beamer@sectionintoc {5}{Code Examples and Practice}{39}{0}{5}
-\beamer@subsectionintoc {5}{1}{Boolean and Numeric Types}{40}{0}{5}
-\beamer@subsectionintoc {5}{2}{Basic Function}{46}{0}{5}
-\beamer@subsectionintoc {5}{3}{Control Flow}{48}{0}{5}
-\beamer@subsectionintoc {5}{4}{Sequences, Sets, and Mappings}{49}{0}{5}
-\beamer@subsectionintoc {5}{5}{Data I//O}{50}{0}{5}
-\beamer@subsectionintoc {5}{6}{Loops}{51}{0}{5}
-\beamer@subsectionintoc {5}{7}{Advanced Functions}{52}{0}{5}
-\beamer@subsectionintoc {5}{8}{Plotting}{53}{0}{5}
-\beamer@subsectionintoc {5}{9}{Regression}{54}{0}{5}
-\beamer@subsectionintoc {5}{10}{Data Science}{55}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{56}{0}{6}
+\beamer@sectionintoc {3}{Overview of Python}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Installing Anaconda}{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{Python History}{15}{0}{3}
+\beamer@subsectionintoc {3}{3}{Python Methodology}{18}{0}{3}
+\beamer@subsectionintoc {3}{4}{Python Applications}{21}{0}{3}
+\beamer@subsectionintoc {3}{5}{Python in the Real World}{23}{0}{3}
+\beamer@subsectionintoc {3}{6}{Documentation and Resources}{25}{0}{3}
+\beamer@subsectionintoc {3}{7}{Finalizing Anaconda Installation}{27}{0}{3}
+\beamer@sectionintoc {4}{Writing Python Code}{28}{0}{4}
+\beamer@subsectionintoc {4}{1}{Class Folder Setup}{29}{0}{4}
+\beamer@subsectionintoc {4}{2}{Using the Terminal}{30}{0}{4}
+\beamer@subsectionintoc {4}{3}{Text Editor}{31}{0}{4}
+\beamer@subsectionintoc {4}{4}{Integrated Development Environments (IDEs}{33}{0}{4}
+\beamer@subsectionintoc {4}{5}{White Space}{39}{0}{4}
+\beamer@sectionintoc {5}{Code Examples and Practice}{40}{0}{5}
+\beamer@subsectionintoc {5}{1}{Boolean and Numeric Types}{41}{0}{5}
+\beamer@subsectionintoc {5}{2}{Basic Function}{47}{0}{5}
+\beamer@subsectionintoc {5}{3}{Control Flow}{49}{0}{5}
+\beamer@subsectionintoc {5}{4}{Sequences}{50}{0}{5}
+\beamer@subsectionintoc {5}{5}{Sets, Mappings, and Comments}{51}{0}{5}
+\beamer@subsectionintoc {5}{6}{Statements}{52}{0}{5}
+\beamer@subsectionintoc {5}{7}{Data I//O}{53}{0}{5}
+\beamer@subsectionintoc {5}{8}{Intermediate Functions}{54}{0}{5}
+\beamer@subsectionintoc {5}{9}{Basic Modules and Packages}{55}{0}{5}
+\beamer@subsectionintoc {5}{10}{Plotting and Regression}{56}{0}{5}
+\beamer@subsectionintoc {5}{11}{Introduction to Machine Learning}{58}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{59}{0}{6}
